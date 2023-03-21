@@ -4,93 +4,227 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos</title>
     <link rel="shortcut icon" href="./IMG/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <title>Bienvenidos</title>
 </head>
 <body>
-    <header class="fondo">
-        <nav>  
-            <h2 class="logo">AJNA<span> YOGA</span></h2>
-        <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="./Paginas/intro.html">INTRO</a></li>
-            <li><a href="./Paginas/about.html">NOSOTROS</a></li>
-            <li><a href="./Paginas/project.html">TRABAJO</a></li>
-            <li><a href="./Paginas/contact.html">CONTACTO</a></li>
-        </ul>
-        </nav>
-        <div class="hello">
-            
-            <h1>Welcome, <span> The journey </span> to a new you</h1>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AJNA <span>YOGA</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/about.html">SOBRE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/project.html">CLASES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/galeria.html">GALERIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/contact.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+    
     <section>
         <div class="intro">
-            
-            <img src="./IMG/sobre3.jpg" alt="intro" height="300px">
-        
-        
-            <h3>YOGA</h3>
             <p>
                 El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general. El yoga se desarrolló como una práctica espiritual hace miles de años.</p>
             </div>
            
         </div>     
-    </section>
-
-
-
-    <section>
-        <div class="sobre">
-            <img src="./IMG/sobre1.jpg" alt="Sobremi" height="300px">
-            <img src="./IMG/sobre2.jpg" alt="Sobremi" height="200px">
-        
-            <div class="texto">
-            <h3 class="sobre">NOSOTROS</h3>
-            <p>Creemos que la flexibilidad emocional, mental y espiritual es virtuosa y mejora la vida, y cuando se trata de la práctica del yoga, es primordial.</p>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-           
-        </div>     
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMG/Carrusel.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMG/Carrusel 6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMG/Carrusel 8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption1 d-none d-md-block">
+                  <h5>BIENVENIDO AL INICIO DE UN NUEVO TÚ</h5>
+                
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        <section class="w-50 mx-auto text-center pt-5" id="sobre">
+          <h1 class="p-3 fs-2 border-top border-3">NUESTRA MISIÓN</h1>
+                  <p>La misión es difundir las enseñanzas del Yoga a todos los estratos sociales, independientemente de su religión, economía o condición social.</p>
+                  <p>Enfatizamos la investigación y desarrollo del Hatha Yoga, el cual juega un papel importante en el crecimiento del ser, a nivel físico, mental, emocional y espiritual.</p>
+                  <p>Nuestro plantel docente está en permanente capacitación y actualización, pudiendo así brindar a nuestros estudiantes, una formación de excelencia, con los últimos avances y actualizaciones en Biomecánica.</p>
+        </section>
+
+        <section class="container">
+          <div class="row w-75 mx-auto my-5 profesionales-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img class="img-fluid" src="./IMG/estudio1.jpg" alt="our" width="300" height="200">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Estudio</h3>
+              <p class="px-4">El estudio y las clases se adecuan siempre al nivel general de grupo, equipada para su comodidad.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img class="img-fluid" src="./IMG/estudio3.jpg" alt="our" width="300" height="200">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Profesores</h3>
+              <p class="px-4">Contamos con profesores especializados, que se encuentran siempre en continuo perfeccionamiento y actualización.</p>
+            </div>
+          </div>
+            
+      </section>
+
+    </section>
+    <h1 class="clases">NUESTRAS CLASES</h1>
+
+    <section class="section">
+      <div class="parrafo">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-4 icono-wrap"></div>
+        
+          <h1>VINYASA FLOW</h1>
+
+        <p>Conocido también como vinyasa, que quiere decir colocar las cosas de una manera especial. En Yoga Flow se realizan secuencias de posturas que se ligan entre si mediante transiciones o movimientos guiados por la respiración. Este cómo se pasa de una postura a otra es muy relevante. No son secuencias fijas sino que las posturas varían en función del objetivo que se quiera lograr. El vinyasa nos enseña a encontrar la inmovilidad y la calma en la propia conciencia.</p>
+      </div>
+      <img class="img-fluid" src="./IMG/ustrasana.jpg" alt="">
+
+    </section>
+    <section class="section">
+      <div class="parrafo">
+        <h1>YIN YOGA</h1>
+        <p>En el cuerpo humano los conceptos taoístas del yin y el yang también están presentes. El yang corresponde a los músculos, tendones y a su movimiento. Y el yin a los huesos, ligamentos y la quietud. En el Yin Yoga se practican posturas relativamente sencillas mantenidas durante varios minutos, con lo que se consigue reducir la tensión, ansiedad y estrés. La práctica del Yin Yoga se concentra en la apertura de pelvis y cadera, en el estiramiento de rodillas y columna; se trabaja por medio de la relajación y el uso natural de la fuerza de la gravedad.</p>
+      </div>
+      <img class="img-fluid" src="./IMG/galeria11.jpg" alt="">
+
+    </section>
+    <section class="section">
+      <div class="parrafo">
+        <h1>HATHA YOGA</h1>
+        <p>Es el Yoga de la fortaleza y armonía del cuerpo. El principal objetivo del Hatha Yoga es conseguir armonizar el cuerpo físico, la mente y la energía vital o prana. Para ello se sirve de poderosas herramientas: secuencias de asanas o posturas mantenidas en la inmovilidad, pranayama o técnicas de control de la energía vital a través de la respiración, bandhas o cierres energéticos, mudras o gestos, meditación… En el Hatha Yoga se comienza disciplinando el cuerpo, para indirectamente sosegar la mente.</p>
+      </div>
+      <img class="img fluid" src="./IMG/galeria12.jpg" alt="">
+
+    </section>
+
+
+
+    <section>
+        
     </section>
 
     <section>
-    <div class="trabajo">
-        <h3>CLASES</h3>
-        <img src="./IMG/kapotasama.jpg" alt="kapot" height="300px">
-        <h4>Kapotasana, Postura de la Paloma</h4>
-        <p>Es una asana de Yoga Avanzado que requiere flexibilidad, técnica y paciencia. Te enseñamos los músculos que activas, los beneficios y precauciones  y cómo debes calentar</p>
-        <div class="postura">
-            <img src="./IMG/ustrasana.jpg" alt="ust" height="300px">
-            <h4>Ustrasana, Postura del Camello</h4>
-            <p>La Postura de Yoga del Camello es una de las más utilizadas para estirar y ejercitar la espalda, pero existen algunas precauciones que debes tener en cuenta.
+        <h2>GALERIA</h2>
+        <div class="gallery-container">
+            
+            <div class="gallery-item">
+                <img src="./IMG/galeria1.jpg" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria2.jpg" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria3.jpg" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria4.jpg" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria5.jpg" alt="" class="gallery-img">
+                
+             </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria6.jpg" alt="" class="gallery-img">
+                
+            </div> 
+            <div class="gallery-item">
+                <img src="./IMG/galeria7.jpg" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria8.png" alt="" class="gallery-img">
+                
+            </div>
+            <div class="gallery-item">
+                <img src="./IMG/galeria9.jpg" alt="" class="gallery-img">
+                
+            </div>
 
-            </p>
         </div>
-    </div>
     </section>
 
     <section class="forma">
-        <h2>Contactanos</h2>
-        <form action=""></form>
-        <fieldset>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
-            <label for="correo">Correo </label>
-            <input type="text" name="correo">
-            <textarea name="texto" id="" cols="30" rows="10"></textarea>
-            <input type="button" value="Send It">
+      <h2 class="contact">Contactanos</h2>
+      <form action=""></form>
+      <fieldset>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre">
+          <label for="correo">Correo </label>
+          <input type="text" name="correo">
+          <textarea name="texto" id="" cols="30" rows="10"></textarea>
+          <input type="button" value="Enviar">
 
-            
-        
+          
+      </fieldset>
+  </section>
 
-        </fieldset>
-    </section>
+
+    
+<footer>
    
-   <footer class="piepagina">
-    <h5>Copyright 2023 <span>Ajna Yoga.</span> All rights reserved </h5>
-
-    </section>
-   </footer> 
+    <ul>
+        <li><a><i class="bi bi-facebook"></i></a></li>
+        <li><a><i class="bi bi-instagram"></i></a></li>
+        <li><a><i class="bi bi-whatsapp"></i></a></li>
+    </ul>
+</footer> 
+   
+<script 
+   src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+   </script>
+   <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+</script>
+   
 </body>
 </html>
