@@ -1,0 +1,39 @@
+/*map para formu*/
+$estiloForma:(
+    width: 300px,
+    margin: 0 auto,
+    padding: 10px,
+    color: white,
+    text-align:center,
+    
+);
+
+.form-contact{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: overline;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.btn{
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.contacto-container{
+    background-color: rgb(152, 104, 57);
+}
+h1 {
+    padding: 0px;
+    font-style: italic;
+}
+.forma{
+    width: map-get($estiloForma, $width);
+    margin: map-get($estiloForma, $margin);
+    padding: map-get($estiloForma, $padding);
+    color: map-get($estiloForma, $color);
+    text-align: map-get($estiloForma, $text-align);
+    
+}

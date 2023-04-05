@@ -1,0 +1,86 @@
+/* Aplico Mixin*/
+@mixin size ($width, $heigth){
+    width: $width;
+    height: $heigth;
+}
+.intro{
+    background-color: rgb(203, 190, 168);
+    margin-top: 0px;
+    display: flex;
+    padding: 3px 28px 34px 19px;
+    color: beige;
+    
+ }
+ .intro p{
+     padding-left: 15px;
+     text-align: center;
+     padding: 80px 30px 20px;
+     font-style: italic;
+     font-size: 19px;
+ }
+ .carousel-inner {
+     position: relative;
+     width: 130%;
+     align-content: center;
+     overflow: hidden;
+ }
+ .carousel-caption {
+     position: absolute;
+     right: 38%;
+     bottom: 16.25rem;
+     left: 15%;
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .w-100 {
+    @include size(100%!important,50%);
+      padding: 0px;
+   }  
+   .carousel-inner {
+     position: relative;
+     width: 100%;
+     align-content: center;
+     overflow: hidden
+ }
+ h3{
+     text-align: center;
+    float: left;
+    margin: 22px 7px 48px 69px;
+ }
+ .carousel-caption {
+     position: absolute;
+     right: 14%;
+     bottom: 16.25rem;
+     left: 15%;
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+     color: #857656;
+     text-align: center;
+     font-size: 24px;
+ }
+ .carousel-caption1{ 
+     position: absolute;
+     right: 14%;
+     bottom: 33.25rem;
+     left: 12%;
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+     color: #857656;
+     text-align: center;
+ 
+ }
+ .servicio-fila{
+     width: 100% !important;
+     text-align: center;
+ }
+ .fs-2{
+ font-size: 2rem!important;
+ }
+ .text-center{
+         text-align: center!important;
+         font-size: 13px;
+         margin: 4rem;
+ }
